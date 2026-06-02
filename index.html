@@ -3,17 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="איטלקיאנה - סדנת בישול איטלקית משפחתית בפרדס חנה־כרכור עם פיצה, פסטה, לזניה וטירמיסו."
-    />
+    <meta name="description" content="איטלקיאנה - סדנת בישול איטלקית משפחתית בפרדס חנה־כרכור עם פיצה, פסטה, לזניה וטירמיסו." />
     <title>איטלקיאנה | חוויה איטלקית קולינרית בפרדס חנה</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -36,18 +30,17 @@
     </header>
 
     <main id="main">
+
+      <!-- HERO -->
       <section class="hero" id="hero" aria-labelledby="hero-title">
         <video class="hero-video" autoplay muted loop playsinline preload="metadata">
           <source src="https://www.pexels.com/download/video/19120193/" type="video/mp4" />
-          הדפדפן שלך לא תומך בהצגת וידאו.
         </video>
         <div class="hero-overlay" aria-hidden="true"></div>
         <div class="hero-content reveal">
           <p class="hero-kicker">פרדס חנה־כרכור · סדנת בישול איטלקית</p>
           <h1 id="hero-title">איטלקיאנה | חוויה איטלקית קולינרית</h1>
-          <p class="hero-subtitle">
-            סדנת בישול מעשית לכל המשפחה. לומדים, לשים, מבלים ואוכלים ביחד.
-          </p>
+          <p class="hero-subtitle">סדנת בישול מעשית לכל המשפחה. לומדים, לשים, מבלים ואוכלים ביחד.</p>
           <a class="btn btn-primary" href="#registration">דברו איתנו</a>
           <div class="hero-note" aria-label="מנות הסדנה">
             <span>פיצה</span>
@@ -58,6 +51,7 @@
         </div>
       </section>
 
+      <!-- WHY SECTION -->
       <section class="section section-intro" id="why" aria-labelledby="why-title">
         <div class="container">
           <div class="section-heading reveal">
@@ -68,72 +62,186 @@
             <h2 id="why-title">למה איטלקיאנה?</h2>
             <p class="why-subtitle">לא קורס בישול. לא מסעדה. משהו הרבה יותר טוב.</p>
           </div>
+
           <div class="feature-grid">
+            <!-- Card 01 -->
             <article class="feature-card card-red reveal">
               <div class="feature-number">01</div>
-              <div class="feature-icon" aria-hidden="true">🧑‍🍳</div>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="color:#c0392b">
+                  <path d="M7 7h10M7 12h10M7 17h5"/>
+                  <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  <circle cx="17" cy="17" r="3" fill="none"/>
+                  <path d="m19.5 19.5 1.5 1.5"/>
+                </svg>
+              </div>
               <h3>חוויה מעשית</h3>
               <p>לא באים להסתכל – באים ללכלך את הידיים בקמח. כולם משתתפים, מהקטנים ועד הגדולים.</p>
             </article>
+
+            <!-- Card 02 -->
             <article class="feature-card card-neutral reveal">
               <div class="feature-number">02</div>
-              <div class="feature-icon" aria-hidden="true">🍝</div>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="color:#b8936a">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                  <path d="M12 8v4l3 3"/>
+                  <path d="M9 2.458A10 10 0 0 1 12 2"/>
+                  <path d="M2.458 9A10 10 0 0 1 2 12"/>
+                </svg>
+              </div>
               <h3>הסודות של איטליה</h3>
               <p>מפיצה נאפוליטנית מושלמת ועד פסטה טרייה בעבודת יד ולזניה עשירה.</p>
             </article>
+
+            <!-- Card 03 -->
             <article class="feature-card card-green reveal">
               <div class="feature-number">03</div>
-              <div class="feature-icon" aria-hidden="true">🥂</div>
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="color:#2d8a4e">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
               <h3>זמן איכות אמיתי</h3>
               <p>ניתוק מהמסכים, חיבור סביב השולחן. מתאים כחוויה משפחתית מגבשת או לדייט זוגי ייחודי.</p>
             </article>
           </div>
+
+          <!-- Stats — free floating -->
           <div class="why-proof-bar reveal" role="list" aria-label="נתוני הצלחה">
-            <p role="listitem"><span class="why-stat-value">200+</span> משפחות שהשתתפו</p>
-            <p role="listitem"><span class="why-stat-value">⭐ 4.9</span> דירוג ממוצע</p>
-            <p role="listitem"><span class="why-stat-value">3</span> שעות של בישול ואכילה</p>
+            <p role="listitem">
+              <span class="stat-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </span>
+              <span class="why-stat-value">200+</span>
+              משפחות שהשתתפו
+            </p>
+            <p role="listitem">
+              <span class="stat-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </span>
+              <span class="why-stat-value">4.9</span>
+              דירוג ממוצע
+            </p>
+            <p role="listitem">
+              <span class="stat-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </span>
+              <span class="why-stat-value">3</span>
+              שעות של בישול ואכילה
+            </p>
           </div>
+
           <div class="why-cta-wrap reveal">
             <a class="btn btn-primary why-cta" href="#registration">דברו איתנו</a>
           </div>
         </div>
       </section>
 
+      <!-- MENU SECTION — ZIGZAG -->
       <section class="section menu-section" id="menu" aria-labelledby="menu-title">
         <div class="container">
           <div class="section-heading reveal">
             <p class="section-kicker">התפריט של הערב</p>
             <h2 id="menu-title">מה על השולחן?</h2>
           </div>
-          <div class="menu-grid">
-            <article class="dish-card reveal" style="background-image: url('photos/pizza.png');">
-              <div class="dish-copy">
-                <h3>הפיצה</h3>
-                <p>בצק נאפוליטני שתוסס 48 שעות, נפתח בידיים ונאפה בטאבון לוהט.</p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Dish 1 — Pizza -->
+          <article class="dish-item reveal">
+            <div class="dish-visual">
+              <div class="dish-visual-inner" style="background-image: url('photos/pizza.png');"></div>
+            </div>
+            <div class="dish-text">
+              <div class="dish-text-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a10 10 0 1 0 10 10"/>
+                  <path d="M12 8v4l3 3"/>
+                  <circle cx="12" cy="12" r="1"/>
+                </svg>
               </div>
-            </article>
-            <article class="dish-card reveal" style="background-image: url('photos/pasta.png');">
-              <div class="dish-copy">
-                <h3>הפסטה</h3>
-                <p>רידוד וחיתוך של פסטה טרייה (Tagliatelle) מכוסים באבק עדין של קמח על משטח עץ.</p>
+              <span class="dish-text-label">המנה הראשונה</span>
+              <h3>הפיצה</h3>
+              <p>בצק נאפוליטני שתוסס 48 שעות, נפתח בידיים ונאפה בטאבון לוהט. קריספי מבחוץ, רך ואוורירי מבפנים.</p>
+            </div>
+          </article>
+
+          <!-- Dish 2 — Pasta -->
+          <article class="dish-item reveal">
+            <div class="dish-visual">
+              <div class="dish-visual-inner" style="background-image: url('photos/pasta.png');"></div>
+            </div>
+            <div class="dish-text">
+              <div class="dish-text-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 11l19-9-9 19-2-8-8-2z"/>
+                </svg>
               </div>
-            </article>
-            <article class="dish-card reveal" style="background-image: url('photos/lasagnia.png');">
-              <div class="dish-copy">
-                <h3>הלזניה</h3>
-                <p>מבט מהצד שמראה את השכבות המושלמות – רוטב עגבניות עמוק, גבינה מותכת ומבעבעת שנוזלת קצת בצד.</p>
+              <span class="dish-text-label">המנה השנייה</span>
+              <h3>הפסטה</h3>
+              <p>רידוד וחיתוך פסטה טרייה בעבודת יד — טליאטלה מכוסה אבק קמח על משטח עץ. הפשטות שהופכת לאמנות.</p>
+            </div>
+          </article>
+
+          <!-- Dish 3 — Lasagne -->
+          <article class="dish-item reveal">
+            <div class="dish-visual">
+              <div class="dish-visual-inner" style="background-image: url('photos/lasagnia.png');"></div>
+            </div>
+            <div class="dish-text">
+              <div class="dish-text-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="4" rx="1"/>
+                  <rect x="2" y="9" width="20" height="4" rx="1"/>
+                  <rect x="2" y="15" width="20" height="4" rx="1"/>
+                  <path d="M6 21h12"/>
+                </svg>
               </div>
-            </article>
-            <article class="dish-card reveal" style="background-image: url('photos/tirumisu.png');">
-              <div class="dish-copy">
-                <h3>הטירמיסו</h3>
-                <p>הקלאסיקה האיטלקית בגרסה האישית: קעריות אישיות ומעוצבות שכיף להכין ביחד.</p>
+              <span class="dish-text-label">המנה השלישית</span>
+              <h3>הלזניה</h3>
+              <p>שכבות מושלמות של רוטב עגבניות עמוק, גבינה מותכת ומבעבעת. כל פרוסה — סיפור בפני עצמו.</p>
+            </div>
+          </article>
+
+          <!-- Dish 4 — Tiramisu -->
+          <article class="dish-item reveal">
+            <div class="dish-visual">
+              <div class="dish-visual-inner" style="background-image: url('photos/tirumisu.png');"></div>
+            </div>
+            <div class="dish-text">
+              <div class="dish-text-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                  <line x1="6" y1="1" x2="6" y2="4"/>
+                  <line x1="10" y1="1" x2="10" y2="4"/>
+                  <line x1="14" y1="1" x2="14" y2="4"/>
+                </svg>
               </div>
-            </article>
-          </div>
+              <span class="dish-text-label">הקינוח</span>
+              <h3>הטירמיסו</h3>
+              <p>הקלאסיקה האיטלקית בגרסה האישית: קעריות מעוצבות שכיף להכין ביחד ועוד יותר כיף לאכול.</p>
+            </div>
+          </article>
+
         </div>
       </section>
 
+      <!-- TIMELINE -->
       <section class="section timeline-section" id="schedule" aria-labelledby="schedule-title">
         <div class="container">
           <div class="section-heading reveal">
@@ -144,7 +252,12 @@
             <li class="timeline-item reveal">
               <div class="timeline-item-header">
                 <time datetime="18:00">18:00</time>
-                <span class="timeline-emoji" aria-hidden="true">🥂</span>
+                <span class="timeline-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 22h8M6 2h12l-1 8H7L6 2z"/>
+                    <path d="M7 10c0 5 10 5 10 0"/>
+                  </svg>
+                </span>
               </div>
               <div class="timeline-item-content">
                 <h3>לפני שהידיים מתלכלכות</h3>
@@ -154,17 +267,32 @@
             <li class="timeline-item reveal">
               <div class="timeline-item-header">
                 <time datetime="18:20">18:20</time>
-                <span class="timeline-emoji" aria-hidden="true">🤌</span>
+                <span class="timeline-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/>
+                    <path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                    <path d="M9.5 14.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.83 8 21v-5c0-.83.67-1.5 1.5-1.5z"/>
+                    <path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/>
+                    <path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/>
+                    <path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/>
+                    <path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/>
+                    <path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/>
+                  </svg>
+                </span>
               </div>
               <div class="timeline-item-content">
                 <h3>נכנסים לקצב (וקמח)</h3>
-                <p>לומדים את הסודות של הבצק האיטלקי, לשים ביחד, ויוצרים את הבסיס להכל.</p>
+                <p>לומדים את הסודות של הבצק האיטלקי, לשים ביחד ויוצרים את הבסיס להכל.</p>
               </div>
             </li>
             <li class="timeline-item reveal">
               <div class="timeline-item-header">
                 <time datetime="19:15">19:15</time>
-                <span class="timeline-emoji" aria-hidden="true">🍕</span>
+                <span class="timeline-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5-2 1.6-3 3.5-3 5.5a7 7 0 0 0 7 7z"/>
+                  </svg>
+                </span>
               </div>
               <div class="timeline-item-content">
                 <h3>הטאבון נדלק</h3>
@@ -174,7 +302,11 @@
             <li class="timeline-item reveal">
               <div class="timeline-item-header">
                 <time datetime="20:00">20:00</time>
-                <span class="timeline-emoji" aria-hidden="true">🍝</span>
+                <span class="timeline-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 11l19-9-9 19-2-8-8-2z"/>
+                  </svg>
+                </span>
               </div>
               <div class="timeline-item-content">
                 <h3>אוליביאמו! (חוגגים)</h3>
@@ -185,25 +317,40 @@
         </div>
       </section>
 
+      <!-- ABOUT -->
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="container about-grid">
           <div class="about-copy reveal">
             <p class="section-kicker">מי אנחנו</p>
+            <span class="about-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="width:1rem;height:1rem">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              פרדס חנה-כרכור מאז 2022
+            </span>
             <h2 id="about-title">קסם איטלקי, בגובה העיניים</h2>
             <p>
               האהבה שלנו לאוכל איטלקי התחילה מהתשוקה לפשטות, לחומרי גלם מעולים ולרגעים שבהם כל המשפחה נפגשת במטבח.
               הקמנו את איטלקיאנה בפרדס חנה כדי להביא את הקסם הזה אליכם – בלי פוזה, בגובה העיניים, ועם המון אהבה ושמחה.
             </p>
           </div>
-          <div
-            class="about-visual reveal"
-            role="img"
-            aria-label="ידיים לשות בצק על שולחן עץ מקומח"
-          >
+          <div class="about-visual reveal" role="img" aria-label="ידיים לשות בצק על שולחן עץ מקומח">
+            <div class="about-float-card">
+              <div class="about-float-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </div>
+              <div class="about-float-card-text">
+                <strong>200+ משפחות</strong>
+                <span>יצאו עם חיוך ✨</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+      <!-- FAQ -->
       <section class="section faq-section" id="faq" aria-labelledby="faq-title">
         <div class="container faq-layout">
           <div class="section-heading reveal">
@@ -217,10 +364,7 @@
                 <span class="faq-icon" aria-hidden="true"></span>
               </button>
               <div class="faq-panel" id="faq-answer-1">
-                <p>
-                  הסדנה מותאמת לחלוטין לכל המשפחה! ילדים (מגיל 5 ומעלה) נהנים מאוד ללוש ולעצב, ומבוגרים מקבלים טיפים
-                  מקצועיים לבישול ביתי ברמה גבוהה.
-                </p>
+                <p>הסדנה מותאמת לחלוטין לכל המשפחה! ילדים (מגיל 5 ומעלה) נהנים מאוד ללוש ולעצב, ומבוגרים מקבלים טיפים מקצועיים לבישול ביתי ברמה גבוהה.</p>
               </div>
             </div>
             <div class="faq-item">
@@ -254,6 +398,7 @@
         </div>
       </section>
 
+      <!-- REGISTRATION -->
       <section class="section registration-section" id="registration" aria-labelledby="registration-title">
         <div class="container">
           <div class="registration-card reveal">
@@ -262,16 +407,10 @@
               <h2 id="registration-title">תופסים מקום בסדנה</h2>
               <p>השאירו פרטים ונחזור אליכם עם התאריך הקרוב וההתאמה הכי טובה לחוויה שלכם.</p>
             </div>
-            <form
-              class="registration-form"
-              action="https://formsubmit.co/ALONKATZ09@GMAIL.COM"
-              method="POST"
-              data-registration-form
-            >
+            <form class="registration-form" action="https://formsubmit.co/ALONKATZ09@GMAIL.COM" method="POST" data-registration-form>
               <input type="hidden" name="_subject" value="פנייה חדשה מסדנת איטלקיאנה" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
-
               <div class="form-field">
                 <label for="full-name">שם מלא</label>
                 <input id="full-name" name="שם מלא" type="text" autocomplete="name" required />
@@ -294,14 +433,7 @@
                 </select>
               </div>
               <div class="form-actions">
-                <a
-                  class="btn btn-whatsapp"
-                  href="https://wa.me/972584846272?text=היי%20אשמח%20לפרטים%20על%20סדנת%20איטלקיאנה"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  לשלוח הודעת וואטסאפ
-                </a>
+                <a class="btn btn-whatsapp" href="https://wa.me/972584846272?text=היי%20אשמח%20לפרטים%20על%20סדנת%20איטלקיאנה" target="_blank" rel="noopener">לשלוח הודעת וואטסאפ</a>
                 <button class="btn btn-submit" type="submit" data-submit-button>שליחת פרטים במייל</button>
               </div>
             </form>
