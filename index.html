@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="he" dir="rtl">
+<html lang="he" dir="rtl" class="js">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -42,12 +42,7 @@
           <h1 id="hero-title">איטלקיאנה | חוויה איטלקית קולינרית</h1>
           <p class="hero-subtitle">סדנת בישול מעשית לכל המשפחה. לומדים, לשים, מבלים ואוכלים ביחד.</p>
           <a class="btn btn-primary" href="#registration">דברו איתנו</a>
-          <div class="hero-note" aria-label="מנות הסדנה">
-            <span>פיצה</span>
-            <span>פסטה</span>
-            <span>לזניה</span>
-            <span>טירמיסו</span>
-          </div>
+          
         </div>
       </section>
 
@@ -55,15 +50,12 @@
       <section class="section section-intro" id="why" aria-labelledby="why-title">
         <div class="container">
           <div class="section-heading reveal">
-            <div class="section-brand-mark" aria-hidden="true">
-              <img src="photos/logo.png" alt="איטלקיאנה לוגו" />
-            </div>
+            
             <p class="section-kicker">חוויה שמתחילה בידיים</p>
             <h2 id="why-title">למה איטלקיאנה?</h2>
-            <p class="why-subtitle">לא קורס בישול. לא מסעדה. משהו הרבה יותר טוב.</p>
           </div>
 
-          <div class="feature-grid">
+          <div class="feature-grid" data-stagger="70">
             <!-- Card 01 -->
             <article class="feature-card card-red reveal">
               <div class="feature-number">01</div>
@@ -150,8 +142,9 @@
         </div>
       </section>
 
-      <!-- MENU SECTION — ZIGZAG -->
+      <!-- MENU SECTION — EDITORIAL ZIGZAG -->
       <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="menu-section-bg" aria-hidden="true"></div>
         <div class="container">
           <div class="section-heading reveal">
             <p class="section-kicker">התפריט של הערב</p>
@@ -159,85 +152,66 @@
           </div>
         </div>
 
-        <div class="menu-grid">
+        <div class="menu-showcase">
+        <div class="menu-grid" data-stagger="90">
 
           <!-- Dish 1 — Pizza -->
           <article class="dish-item reveal">
+            <div class="dish-text">
+              <span class="dish-text-label">המנה הראשונה</span>
+              <h3>הפיצה</h3>
+            </div>
             <div class="dish-visual">
               <div class="dish-visual-inner" style="background-image: url('photos/pizza.png');"></div>
             </div>
-            <div class="dish-text">
-              <div class="dish-text-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2a10 10 0 1 0 10 10"/>
-                  <path d="M12 8v4l3 3"/>
-                  <circle cx="12" cy="12" r="1"/>
-                </svg>
-              </div>
-              <span class="dish-text-label">המנה הראשונה</span>
-              <h3>הפיצה</h3>
+            <div class="dish-description">
               <p>בצק נאפוליטני שתוסס 48 שעות, נפתח בידיים ונאפה בטאבון לוהט. קריספי מבחוץ, רך ואוורירי מבפנים.</p>
             </div>
           </article>
 
           <!-- Dish 2 — Pasta -->
           <article class="dish-item reveal">
+            <div class="dish-text">
+              <span class="dish-text-label">המנה השנייה</span>
+              <h3>הפסטה</h3>
+            </div>
             <div class="dish-visual">
               <div class="dish-visual-inner" style="background-image: url('photos/pasta.png');"></div>
             </div>
-            <div class="dish-text">
-              <div class="dish-text-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M3 11l19-9-9 19-2-8-8-2z"/>
-                </svg>
-              </div>
-              <span class="dish-text-label">המנה השנייה</span>
-              <h3>הפסטה</h3>
+            <div class="dish-description">
               <p>רידוד וחיתוך פסטה טרייה בעבודת יד — טליאטלה מכוסה אבק קמח על משטח עץ. הפשטות שהופכת לאמנות.</p>
             </div>
           </article>
 
           <!-- Dish 3 — Lasagne -->
           <article class="dish-item reveal">
+            <div class="dish-text">
+              <span class="dish-text-label">המנה השלישית</span>
+              <h3>הלזניה</h3>
+            </div>
             <div class="dish-visual">
               <div class="dish-visual-inner" style="background-image: url('photos/lasagnia.png');"></div>
             </div>
-            <div class="dish-text">
-              <div class="dish-text-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="2" y="3" width="20" height="4" rx="1"/>
-                  <rect x="2" y="9" width="20" height="4" rx="1"/>
-                  <rect x="2" y="15" width="20" height="4" rx="1"/>
-                  <path d="M6 21h12"/>
-                </svg>
-              </div>
-              <span class="dish-text-label">המנה השלישית</span>
-              <h3>הלזניה</h3>
+            <div class="dish-description">
               <p>שכבות מושלמות של רוטב עגבניות עמוק, גבינה מותכת ומבעבעת. כל פרוסה — סיפור בפני עצמו.</p>
             </div>
           </article>
 
           <!-- Dish 4 — Tiramisu -->
           <article class="dish-item reveal">
+            <div class="dish-text">
+              <span class="dish-text-label">הקינוח</span>
+              <h3>הטירמיסו</h3>
+            </div>
             <div class="dish-visual">
               <div class="dish-visual-inner" style="background-image: url('photos/tirumisu.png');"></div>
             </div>
-            <div class="dish-text">
-              <div class="dish-text-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
-                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
-                  <line x1="6" y1="1" x2="6" y2="4"/>
-                  <line x1="10" y1="1" x2="10" y2="4"/>
-                  <line x1="14" y1="1" x2="14" y2="4"/>
-                </svg>
-              </div>
-              <span class="dish-text-label">הקינוח</span>
-              <h3>הטירמיסו</h3>
+            <div class="dish-description">
               <p>הקלאסיקה האיטלקית בגרסה האישית: קעריות מעוצבות שכיף להכין ביחד ועוד יותר כיף לאכול.</p>
             </div>
           </article>
 
+        </div>
         </div>
       </section>
 
@@ -322,12 +296,7 @@
         <div class="container about-grid">
           <div class="about-copy reveal">
             <p class="section-kicker">מי אנחנו</p>
-            <span class="about-badge">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="width:1rem;height:1rem">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              </svg>
-              פרדס חנה-כרכור מאז 2022
-            </span>
+            
             <h2 id="about-title">קסם איטלקי, בגובה העיניים</h2>
             <p>
               האהבה שלנו לאוכל איטלקי התחילה מהתשוקה לפשטות, לחומרי גלם מעולים ולרגעים שבהם כל המשפחה נפגשת במטבח.
