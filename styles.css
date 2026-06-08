@@ -1069,7 +1069,7 @@ html.js .reveal.is-visible {
   position: relative;
   min-height: clamp(22rem, 42vw, 34rem);
   border-radius: var(--radius-lg);
-  background-image: url('photos/baking.png');
+  background-image: url('photos/baking.webp');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -1241,17 +1241,26 @@ html.js .reveal.is-visible {
 
 /* ── REGISTRATION ── */
 .registration-section {
-  padding-block-start: clamp(4.5rem, 8vw, 8rem);
+  position: relative;
+  background-image: 
+    linear-gradient(to bottom, #f5edd8 0%, rgba(245, 237, 216, 0.45) 15%, rgba(253, 251, 247, 0.45) 85%, var(--cream) 100%), 
+    url('photos/families.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-block: clamp(5rem, 9vw, 9rem);
 }
 
 .registration-card {
   max-width: 830px;
   margin-inline: auto;
-  border: 1px solid rgba(61, 90, 69, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: var(--radius-lg);
-  background: var(--white);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   padding: clamp(1.15rem, 4vw, 2.4rem);
-  box-shadow: var(--shadow-soft);
+  box-shadow: var(--shadow-deep);
   transition:
     transform var(--duration-smooth) var(--ease-smooth),
     box-shadow var(--duration-smooth) var(--ease-smooth);
@@ -1259,7 +1268,7 @@ html.js .reveal.is-visible {
 
 .registration-card:hover {
   transform: var(--card-lift);
-  box-shadow: var(--card-shadow-hover);
+  box-shadow: var(--shadow-deep);
 }
 
 .registration-heading {
